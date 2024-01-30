@@ -1,0 +1,257 @@
+/* fonts  */
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+  color: #212121;
+  font-size: 14px;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  line-height: 1.333;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* links hover in document */
+a:hover {
+  color: #ed2b1d;
+}
+
+/* header  */
+.page-header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #e0e0e0;
+  margin-bottom: 20px;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.page-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  gap: 8px;
+  padding: 15px;
+  background-color: #d2cece;
+  margin: 0;
+  border-radius: 4px;
+}
+. .nav-list a {
+  color: #03a9f4;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: capitalize;
+  display: block;
+  padding: 8px 12px;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #0288d1;
+}
+
+.nav-list a:active {
+  color: #f44336;
+}
+
+/* main */
+main {
+  background-color: rgb(171, 205, 205);
+  /* background-image: url(../images/training-scene.jpg); */
+}
+.hero {
+  padding: 48px;
+  background-color: #212121;
+  border-radius: 12px;
+  color: #fff;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 255, 0.15),
+      rgba(0, 0, 255, 0.15)
+    ),
+    url(../images/m04-human.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* color: #fff; */
+}
+.hero-title {
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px #fff;
+  text-align: center;
+  margin-bottom: 24px;
+  line-height: 1.333;
+}
+.hero .section-text {
+  color: #fff;
+}
+
+.section-title {
+  color: #212121;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.section-text {
+  color: #212121;
+  text-indent: 24px;
+  margin-bottom: 16px;
+}
+
+/** .club-list */
+.club-container {
+  padding: 40px 0;
+}
+.club-list {
+  display: flex;
+  gap: 16px;
+}
+.clubs-describe {
+  padding: 8px;
+}
+.club-list .item {
+  flex-basis: calc((100% - 24px) / 3);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+.club-list .title {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.club-list .text {
+}
+.club-list .link {
+  color: #03a9f4;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.club-list .link:hover,
+.club-list .link:focus {
+  color: #0288d1;
+}
+.club-list .link:active {
+  color: #f44336;
+}
+
+/* belefits */
+.div-benefits {
+  padding-top: 40px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(222, 222, 111, 0.33),
+      rgba(222, 222, 111, 0.33)
+    ),
+    url(../images/training-scene.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.benefits-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  border-collapse: collapse;
+}
+.benefits-list .list-item {
+  flex-basis: calc((100%) / 3);
+  padding: 8px;
+  border: solid;
+}
+
+/* programs */
+.downloads .link {
+  color: #03a9f4;
+  text-decoration: none;
+}
+.downloads .link:hover,
+.downloads .link:focus {
+  text-decoration: underline;
+  color: #0288d1;
+}
+.downloads .link:active {
+  color: #f44336;
+}
+.plan-name {
+  color: #ff1744;
+}
+
+/* footer */
+.page-footer {
+  color: #ffffff;
+  background-color: #212121;
+}
+/* color links in footer  */
+.page-footer a {
+  color: currentColor;
+  /* color: inherit; */
+  /* inherit mean a same color as in parent element */
+}
+.page-footer a:hover {
+  color: #f44336;
+}
+.copyright-text {
+  font-size: 11px;
+}
+
+/* to delete */
+.social-links {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .footer-left {
+  display: flex;
+  flex-direction: column;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+} */
+
+.page-footer .container {
+  display: flex;
+}
